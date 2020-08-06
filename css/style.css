@@ -343,7 +343,7 @@ body {
   display: flex;
   width: 44px;
   height: 44px;
-  fill: var(--main-text-color);
+  fill: #afb1b8;
   padding: 12px 12px;
 }
 
@@ -502,6 +502,13 @@ body {
 .bacground-icon:hover {
   background-color: var(--accent-text);
   fill: var(--accent-text);
+}
+.icon-link-footer {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  fill: #ffffff;
+  padding: 12px 12px;
 }
 
 .call-on {
