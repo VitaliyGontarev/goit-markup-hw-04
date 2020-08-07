@@ -35,7 +35,7 @@ body {
 /*page header*/
 
 .conteiner {
-  width: 1230px;
+  width: 1200px;
 
   padding-left: 15px;
   padding-right: 15px;
@@ -382,7 +382,6 @@ body {
   display: flex;
   width: 170px;
   height: 90px;
-  justify-content: space-between;
 
   margin-right: 30px;
   border: 1px solid #afb1b8;
@@ -406,7 +405,7 @@ body {
   fill: #afb1b8;
   width: 170px;
   height: 90px;
-  padding-top: 22px;
+  padding-top: 20px;
 }
 /*footer*/
 .footer {
@@ -468,11 +467,7 @@ body {
 .adress-link:hover {
   color: var(--accent-text);
 }
-/*.block-adress-logo {
-  margin-top: 60px;
-  margin-right: 69px;
-  margin-bottom: 60px;
-}*/
+
 .block-link {
   margin-top: 72px;
   margin-right: 94px;
