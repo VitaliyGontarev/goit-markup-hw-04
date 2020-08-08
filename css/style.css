@@ -567,11 +567,14 @@ body {
 }
 
 /***************************portfolio**********************************/
-
-.flex-conteiner {
+/*.top-line {
   display: flex;
-  flex-wrap: wrap;
-}
+  width: 1600px;
+  height: 80px;
+  outline: 1px solid #ececec;
+}*/
+
+/********filtres*******/
 .block-filtres {
   margin-top: 93px;
   margin-bottom: 34px;
@@ -598,12 +601,23 @@ body {
   background-color: var(--accent-text);
   color: var(--primary-white-color);
 }
+/********our developments*******/
+
+.flex-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .block-flex {
   display: flex;
-  border: 1px solid #eeeeee;
+
   width: 370px;
   margin-bottom: 30px;
   margin-right: 30px;
+
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .block-flex:nth-child(3n) {
   margin-right: 0;
