@@ -219,6 +219,7 @@ body {
   font-size: 14px;
   line-height: 1.42;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 
   margin-top: 0;
   margin-bottom: 10px;
@@ -582,13 +583,23 @@ body {
 
 /********filtres*******/
 .block-filtres {
+  display: flex;
+  justify-content: center;
+  width: 611px;
+  height: 54px;
+
   margin-top: 93px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
-  margin-right: 8px;
+
   text-align: center;
 }
 
 .filtres {
+  display: flex;
+  justify-content: center;
+
   background-color: #f5f4fa;
   color: var(--text-title-color);
 
