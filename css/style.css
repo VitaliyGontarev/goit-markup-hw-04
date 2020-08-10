@@ -379,6 +379,7 @@ body {
 }
 .client {
   display: flex;
+
   margin-right: 30px;
 }
 
@@ -387,6 +388,9 @@ body {
 }
 
 .customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid;
@@ -394,19 +398,21 @@ body {
 
   color: #afb1b8;
 }
-.icon-customers:focus {
+.icon-customers:focus,
+.icon-customers:hover {
+  display: flex;
+
   color: var(--accent-text);
 }
 
 .icon-logo {
+  display: flex;
   fill: currentColor;
   width: 170px;
   height: 90px;
-  padding-top: 20px;
 }
-.icon-logo:focus,
+.icon-logo :focus,
 .icon-logo:hover {
-  border: 1px solid var(--accent-text);
   fill: var(--accent-text);
 }
 /*footer*/
@@ -567,12 +573,6 @@ body {
 }
 
 /***************************portfolio**********************************/
-/*.top-line {
-  display: flex;
-  width: 1600px;
-  height: 80px;
-  outline: 1px solid #ececec;
-}*/
 
 /********filtres*******/
 .block-filtres {
