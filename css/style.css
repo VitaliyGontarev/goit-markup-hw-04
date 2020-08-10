@@ -268,16 +268,22 @@ body {
 }
 
 .development-first-text {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--primary-white-color);
   background-color: #2f303a;
-
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 /*our team*/
@@ -577,7 +583,7 @@ body {
 /********filtres*******/
 .block-filtres {
   margin-top: 93px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   margin-right: 8px;
   text-align: center;
 }
@@ -586,6 +592,8 @@ body {
   background-color: #f5f4fa;
   color: var(--text-title-color);
 
+  width: 130px;
+  height: 38px;
   margin-right: 8px;
 
   border-radius: 4px;
@@ -594,6 +602,9 @@ body {
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.filtres:nth-child(5) {
+  margin-right: 0;
 }
 
 .filtres:focus,
