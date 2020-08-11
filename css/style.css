@@ -48,13 +48,18 @@ body {
 }
 
 /* nav*/
+
+.conteiner-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .main-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .logo {
